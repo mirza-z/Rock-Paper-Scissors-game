@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #bfbfbf;
+}
+
+#game{
+    background-color: wheat;
+    height: 500px;
+    width: 400px;    
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+#game h2{
+    position: absolute;
+    top: 100px;
+}
+
+#game button{
+    position: relative;
+    top: -50px;
+    background-color: darkcyan;
+    font-size: 18px;
+    font-weight:800;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#game button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+#game #con{
+    top: 290px;
+}
+
+#game #result{
+    top: 370px;
+}
